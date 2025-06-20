@@ -45,13 +45,13 @@ After 10 epochs, the model achieved:
 - **Test Accuracy**: 95.20%
 
 ## Setup & Usage
-
+- Download Dataset from here: https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset
 - Mount Google Drive in Colab:
    python
    from google.colab import drive
    drive.mount('/content/drive')
 - Set the data path:
-/content/drive/MyDrive/BrainTumorMRIClassification/Data
+/content/drive/MyDrive/"YourDirectory"/Data
 - Install dependencies:
 -pip install torch torchvision torchmetrics
 - Run the training script (multiclass-classification.ipynb)
