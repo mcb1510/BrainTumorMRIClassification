@@ -6,8 +6,8 @@ A PyTorch-based Convolutional Neural Network (CNN) to classify brain MRI images 
 The dataset is structured as follows:
 
 /Data
-├── Training
-│ ├── Glioma
+   /Training
+   /Glioma
 │ ├── Meningioma
 │ ├── No Tumor
 │ └── Pituitary
