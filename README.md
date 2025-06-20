@@ -5,17 +5,17 @@ A PyTorch-based Convolutional Neural Network (CNN) to classify brain MRI images 
 ## Dataset: Brain Tumor MRI Dataset by Masoud Nickparvar on Kaggle
 The dataset is structured as follows:
 
-/Data
-├── Training
-│ ├── Glioma
-│ ├── Meningioma
-│ ├── No Tumor
-│ └── Pituitary
-└── Testing
-├── Glioma
-├── Meningioma
-├── No Tumor
-└── Pituitary
+/Data <br>
+├── Training<br>
+│ ├── Glioma<br>
+│ ├── Meningioma<br>
+│ ├── No Tumor<br>
+│ └── Pituitary<br>
+└── Testing<br>
+├── Glioma<br>
+├── Meningioma<br>
+├── No Tumor<br>
+└── Pituitary<br>
 
 Images are:
 - Resized to 64×64
@@ -46,16 +46,15 @@ After 10 epochs, the model achieved:
 
 ## Setup & Usage
 
-1. Mount Google Drive in Colab:
-   ```python
+- Mount Google Drive in Colab:
+   python
    from google.colab import drive
    drive.mount('/content/drive')
-Set the data path:
+- Set the data path:
 /content/drive/MyDrive/BrainTumorMRIClassification/Data
-Install dependencies:
-
-pip install torch torchvision torchmetrics
-Run the training script (main.py or notebook.ipynb)
+- Install dependencies:
+-pip install torch torchvision torchmetrics
+- Run the training script (multiclass-classification.ipynb)
 
 License
 MIT License
